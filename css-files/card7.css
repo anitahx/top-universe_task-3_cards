@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #ababab;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 360px;
+    height: 533px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+    /* margin-top: 20px; */
+    /* margin-left: 20px; */
+    padding-left: 60px;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    background: url();
+    border-radius: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* padding-left: 25px; */
+
+}
+
+#name {
+    width: 125px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+    padding-left: 100px;
+    
+}
+
+#job {
+    width: 310px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #78858F;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    padding-left: 100px;
+}
+
+#title {
+    width: 310px;
+    height: 76px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 38px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#date 
+{
+    width: 310px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 141.69%;
+    color: #838383;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;  
+}
+
+#block {
+    width: 310px;
+    height: 73px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 141.69%;
+    color: #000000;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+button {
+    width: 42px;
+    height: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 141.69%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-color: #EB3349;
+}
+
+#react {
+    width: 42px;
+    height: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 141.69%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

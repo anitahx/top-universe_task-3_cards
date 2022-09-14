@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #ababab;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 360px;
+    height: 447px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+h4 {
+    width: 125px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+    padding-left: 100px
+    
+}
+
+#job {
+    width: 310px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #78858F;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    padding-left: 100px;
+}
+
+.profile-image {
+    width: 60px;
+    height: 60px;
+    background: url(.png);
+    border-radius: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#date {
+    width: 310px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #78858F;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-top: 30px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* padding: 10px; */
+    gap: 10px;
+    width: 360px;
+    height: 148px;
+    /* background: url(.jpg); */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+h1 {
+    width: 320px;
+    height: 76px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 38px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-top: 20px;
+}
